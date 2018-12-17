@@ -1,0 +1,141 @@
+html {
+  background-color: #e0e0e0;
+  font-family: 'Sarabun', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1140px;
+    background-color: white;
+}
+
+.wrap {
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	grid-template-rows: repeat(4, auto);
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*### HEAD ###*/
+.head {
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: flex;
+	justify-content: space-between;
+}
+.head ul {
+	display: inline-block;
+	text-align: right;
+	list-style: none;
+	padding-top: 20px;
+	font-weight: 400;
+	padding-left: 0px;
+}
+.infoLst {
+	display: inline-block;
+
+}
+.icon {
+	height: auto;
+	width: 38px;
+	padding-right: 0;
+	margin-top: 5px;
+	padding-left: 40px;
+}
+
+.logo {
+	height: 70px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+/*### mainPar ###*/
+.mainPar {
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	padding-top: 5px;
+	line-height: 1.6;
+	text-align: left;
+	font-size: 1.1em;
+}
+hr {
+	color: #B6E057;
+}
+.lowHr {
+	max-width: 700px;
+	margin-left: 0;
+	color: #B6E057;
+}
+.tekst {
+	max-width: 700px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 400;
+	font-size: 1em;
+	text-align: left;
+}
+.tekst p {
+	text-indent: 9px;
+	margin-top: -10;
+}
+span {
+	color: #7A9D02;	
+}
+
+
+/*### mainImg ###*/
+.mainImg {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	margin-top: 50px;
+	padding-right: 145px;
+}
+.mainImg img {
+  	width: auto;
+  	max-height: 485px;
+}
+
+
+/*### mainRef ###*/
+.mainRef {
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.1em;
+	font-weight: 400;
+}
+.mainRef ul {
+	padding-top: 5px;
+	display: inline-block;
+	letter-spacing: 0.4px;
+	padding-left: 15px;
+}
+.listD {
+	margin-left: 110px;
+	text-align:left;
+}
+
+
+/*### foot###*/
+.foot {
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-template-rows: 4 / 5;
+}
+.foot img {
+	max-width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+
